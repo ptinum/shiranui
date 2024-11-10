@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'MonoplexKR-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_Monoplex-kr@1.0/MonoplexKR-Regular.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+  transform: rotate(0.04deg);
+}
+
+body{
+  font-family: 'MonoplexKR-Regular';
+  -ms-overflow-style: none;
+  background-color: #F0F0F0;
+}
+ 
+::-webkit-scrollbar {
+  display: none;
+}
+
+div{
+  -webkit-touch-callout: none;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+
+a {
+  text-decoration-line: none;
+/*   text-decoration-line: underline; */
+/*   text-decoration-line: overline; */
+/*   text-decoration-line: line-through; */
+/*   text-decoration-line: underline line-through overline; */
+}
+
+a:link {
+  color : black;
+  text-decoration: none;
+}
+a:visited {
+  color : black;
+  text-decoration: none;
+}
+a:hover {
+  color : #b0bbd2;
+  text-decoration: underline;
+}
